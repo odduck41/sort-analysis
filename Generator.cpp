@@ -1,7 +1,6 @@
 #include "Generator.h"
 
-long long seed_1 =
-    std::chrono::time_point_cast<std::chrono::milliseconds>(std::chrono::system_clock::now()).time_since_epoch().count();
+long long seed_1 = std::time(nullptr);
 
 long long seed_2 = 41;
 
