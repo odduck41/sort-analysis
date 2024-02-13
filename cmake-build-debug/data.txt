@@ -1,0 +1,40 @@
+length 5:
+	selection sort:
+		assign = 15
+		compare = 15
+length 7:
+	selection sort:
+		assign = 21
+		compare = 28
+length 41:
+	selection sort:
+		assign = 123
+		compare = 861
+length 43:
+	selection sort:
+		assign = 129
+		compare = 946
+length 439:
+	selection sort:
+		assign = 1317
+		compare = 96580
+length 569:
+	selection sort:
+		assign = 1707
+		compare = 162165
+length 4013:
+	selection sort:
+		assign = 12039
+		compare = 8054091
+length 8179:
+	selection sort:
+		assign = 24537
+		compare = 33452110
+length 13441:
+	selection sort:
+		assign = 40323
+		compare = 90336961
+length 21023:
+	selection sort:
+		assign = 63069
+		compare = 220993776
