@@ -15,11 +15,11 @@ int main() {
             auto g = Generator();
             auto v = g(l);
             std::pair<unsigned long long, unsigned long long> operations = {0, 0};
-            insertion_sort(operations, v);
+            shaker_sort(operations, v);
             assign += operations.first;
             compare += operations.second;
         }
-        std::cout << "\tinsertion_sort:\n" << "\t\tassign = " << assign / 7<< "\n" << "\t\tcompare = " << compare / 7;
+        std::cout << "\tshaker_sort:\n" << "\t\tassign = " << assign / 7<< "\n" << "\t\tcompare = " << compare / 7;
         std::cout << "\n";
     }
 }
