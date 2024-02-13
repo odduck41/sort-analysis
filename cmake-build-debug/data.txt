@@ -1,40 +1,40 @@
 length 5:
-	selection sort:
-		assign = 15
-		compare = 15
+	insertion_sort:
+		assign = 45
+		compare = 6
 length 7:
-	selection sort:
-		assign = 21
-		compare = 28
+	insertion_sort:
+		assign = 84
+		compare = 12
 length 41:
-	selection sort:
-		assign = 123
-		compare = 861
+	insertion_sort:
+		assign = 2583
+		compare = 165
 length 43:
-	selection sort:
-		assign = 129
-		compare = 946
+	insertion_sort:
+		assign = 2838
+		compare = 176
 length 439:
-	selection sort:
-		assign = 1317
-		compare = 96580
+	insertion_sort:
+		assign = 289740
+		compare = 3211
 length 569:
-	selection sort:
-		assign = 1707
-		compare = 162165
+	insertion_sort:
+		assign = 486495
+		compare = 4378
 length 4013:
-	selection sort:
-		assign = 12039
-		compare = 8054091
+	insertion_sort:
+		assign = 24162273
+		compare = 42019
 length 8179:
-	selection sort:
-		assign = 24537
-		compare = 33452110
+	insertion_sort:
+		assign = 100356330
+		compare = 94052
 length 13441:
-	selection sort:
-		assign = 40323
-		compare = 90336961
+	insertion_sort:
+		assign = 271010883
+		compare = 164542
 length 21023:
-	selection sort:
-		assign = 63069
-		compare = 220993776
+	insertion_sort:
+		assign = 662981328
+		compare = 270804
