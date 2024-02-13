@@ -5,12 +5,6 @@
 // first =, second <=>
 
 int main() {
-    auto ans = std::pair{0ull, 0ull};
-    auto g = Generator();
-    std::vector<long long> arr = {5, 4, 3, 2, 1};
-    optimized_bubble_sort(ans, arr);
-    for (auto &a: arr) {
-        std::cout << a << " ";
-    }
-    std::cout << " = " << ans.first << std::endl << " <=> " << ans.second << "\n";
+    int length[10] = {7, 41, 43, 569,439, 4013, 8179, 13441, 78929, 3500443};
+
 }
