@@ -40,8 +40,7 @@ void simple_insertion_sort(
         std::vector<long long>& arr) {
     for (auto i = 0ull; i < arr.size(); ++i) {
         auto j = i;
-        while (j > 0 && arr[j - 1] > arr[j]) {
-            ++operations.second;
+        while (j > 0 && (++operations.second, arr[j - 1] > arr[j])) {
             std::swap(arr[j], arr[j - 1]);
             operations.first += 3;
             --j;
@@ -68,8 +67,27 @@ void optimized_bubble_sort(std::pair<unsigned long long, unsigned long long>& op
 }
 
 
-void shacker_sort(std::pair<unsigned long long, unsigned long long>& operations,
+void shaker_sort(std::pair<unsigned long long, unsigned long long>& operations,
         std::vector<long long>& arr
         ) {
-    
+    auto left = 0ull;
+    auto right = arr.size() - 1;
+    while (left <= right) {
+        for (auto i = right; i > left; --i) {
+            ++operations.second;
+            if (arr[i - 1] > arr[i]) {
+                std::swap(arr[i - 1], arr[i]);
+                operations.first += 3;
+            }
+        }
+        ++left;
+        for (auto i = left; i < right; ++i) {
+            ++operations.second;
+            if (arr[i] > arr[i + 1]) {
+                std::swap(arr[i], arr[i + 1]);
+                operations.first += 3;
+            }
+        }
+        --right;
+    }
 }
