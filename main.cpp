@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include "Generator.h"
 #include "Sorts.h"
 
@@ -13,5 +14,10 @@ int main() {
         std::cout << a << " ";
     }
     std::cout << " = " << ans.first << std::endl << " <=> "<< ans.second << "\n";
+=======
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+>>>>>>> 0bd2524 (init)
     return 0;
 }
