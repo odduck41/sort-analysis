@@ -14,5 +14,5 @@ void simple_insertion_sort(std::pair<unsigned long long, unsigned long long>&,
 void optimized_bubble_sort(std::pair<unsigned long long, unsigned long long>&,
                            std::vector<long long>&);
 
-void shacker_sort(std::pair<unsigned long long, unsigned long long>&,
+void shaker_sort(std::pair<unsigned long long, unsigned long long>&,
                   std::vector<long long>&);
